@@ -1,0 +1,64 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    margin: 3rem 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+#secondcontainer {
+    margin: 3rem 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: blue;
+    width: 25rem;
+    height: 20rem;
+    font-size: 2em;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.save {
+    border: 1px solid white;
+    padding: 1rem;
+}
+
+.remove {
+    cursor: pointer;
+    border: 1px solid red;
+    font-weight: 100;
+    text-decoration: none;
+    color: red;
+    padding: 1rem;
+}
+
+.remove:hover {
+    transform: scale(1.5)
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
